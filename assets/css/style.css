@@ -51,8 +51,15 @@ a {
     -webkit-box-orient: vertical; /* biến nhiều dóng thành 2 dòng còn lại là dấu 3 chấm  */
     overflow: hidden;
 }
+.fixed-header {
+    background-color: #e6f0ff;
+    position: sticky;
+    top: -16px;
+    padding-top: 16px;
+    z-index: 1;
+}
 /* Header */
-.header {
+.Hero-warp {
     background-color: #e6f0ff;
     height: 100vh;
     position: relative;
@@ -60,7 +67,7 @@ a {
 .navbar {
     display: flex; /* chỉnh dóng thành cùng một hàng  */
     align-items: center; /* các con sẽ thẳng hàng  */
-    padding-top: 38px;
+    padding: 12px 0;
 }
 .navbar ul {
     display: flex;
@@ -100,7 +107,7 @@ a {
 }
 
 .hero {
-    margin-top: 20vh;
+    padding-top: 20vh;
 }
 .hero .info {
     width: 51%;
