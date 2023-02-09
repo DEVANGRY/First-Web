@@ -153,6 +153,19 @@ a {
     margin-top: 79px;
     padding: 43px 0 64px 0;
 }
+.clients .row-logo a {
+    padding: 0 42px;
+    /* background-color: red; */
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.clients .row-logo a:hover {
+    transition: ease 0.2s;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    background: white;
+}
 .clients .row {
     display: flex;
     justify-content: space-between;
